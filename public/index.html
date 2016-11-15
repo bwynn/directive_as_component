@@ -1,0 +1,25 @@
+<!Doctype html>
+<html ng-app="myApp">
+<head>
+    <title>Component based directives</title>
+</head>
+<body>
+
+<div multiplication-table x="5" y="5">
+    {{ $parent.multiplication.value }}
+</div>
+
+<!-- libs -->
+<script src="libs/angular/angular.min.js"></script>
+
+<!-- app -->
+<!-- directives -->
+<script src="directives/multiplication_table_directive.js"></script>
+<script src="directives/multiplication_cell_directive.js"></script>
+
+<!-- controllers -->
+<script src="controllers/multiplication_table_ctrl.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>

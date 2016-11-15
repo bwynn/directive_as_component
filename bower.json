@@ -1,0 +1,20 @@
+{
+  "name": "component_directive",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Brian Wynn <brian.wynn83@gmail.com>"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8"
+  }
+}
